@@ -41,7 +41,7 @@ namespace Sample.AudioVideoPlaybackBot.FrontEnd.Http
         public async Task<HttpResponseMessage> OnIncomingRequestAsync()
         {
             this.Logger.Info($"Received HTTP {this.Request.Method}, {this.Request.RequestUri}");
-
+            //var requestMessage = this.Request.HttpContext.GetHttpRequestMessage();
             // Pass the incoming message to the sdk. The sdk takes care of what to do with it.
             var response = await this.Client.ProcessNotificationAsync(this.Request).ConfigureAwait(false);
 

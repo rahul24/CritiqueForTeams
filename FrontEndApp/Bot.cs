@@ -198,13 +198,13 @@ namespace TBot.AudioVideoPlaybackBot.FrontEnd.Bot
                 ApplicationId = "fc6d5524-ee41-42fd-95d3-e7e448ff4732"
 
             });
-            builder.SetServiceBaseUrl(new System.Uri("https://graph.microsoft.com/beta"));
+            builder.SetServiceBaseUrl(new System.Uri("https://graph.microsoft.com/v1.0"));
 
             this.Client = builder.Build();
             this.Client.Calls().OnIncoming += this.CallsOnIncoming;
             this.Client.Calls().OnUpdated += this.CallsOnUpdated;
 
-            this.OnlineMeetings = new OnlineMeetingHelper(authProvider, new System.Uri("https://graph.microsoft.com/v1.0"));
+            this.OnlineMeetings = new OnlineMeetingHelper(authProvider, new System.Uri("https://graph.microsoft.com"));
         }
 
         
