@@ -1,0 +1,16 @@
+MANIFEST.in
+setup.py
+teamscritique/__init__.py
+teamscritique/happy1.wav
+teamscritique/mlp_classifier.model
+teamscritique/utils.py
+teamscritique.egg-info/PKG-INFO
+teamscritique.egg-info/SOURCES.txt
+teamscritique.egg-info/dependency_links.txt
+teamscritique.egg-info/not-zip-safe
+teamscritique.egg-info/requires.txt
+teamscritique.egg-info/top_level.txt
+teamscritique/__pycache__/__init__.cpython-36.pyc
+teamscritique/__pycache__/__init__.cpython-38.pyc
+teamscritique/__pycache__/utils.cpython-36.pyc
+teamscritique/__pycache__/utils.cpython-38.pyc
