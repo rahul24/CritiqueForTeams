@@ -1,11 +1,17 @@
 from setuptools import setup
 
+def readme():
+    with open('README.rst') as f:
+        return f.read()
+
 setup(name='teamscritique',
-      version='1.0',
-      description='The funniest joke in the world',
-      url='http://github.com/storborg/funniest',
+      version='1.4',
+      description='library for sentiment analysis for Teams call',
+      long_description=readme(),
+      url='https://github.com/rahul24/CritiqueForTeams',
       author='Xiao Yin',
       author_email='yinxiao@microsoft.com',
+      keywords='Teams',
       license='MIT',
       packages=['teamscritique'],
       install_requires=[
@@ -15,6 +21,8 @@ setup(name='teamscritique',
           'sklearn',
           'pandas',
           'scipy',
+          'pathlib',
+          'markdown',
       ],
       include_package_data=True,
       zip_safe=False)

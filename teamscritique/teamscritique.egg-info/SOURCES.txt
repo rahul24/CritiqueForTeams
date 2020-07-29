@@ -1,4 +1,5 @@
 MANIFEST.in
+README.rst
 setup.py
 teamscritique/__init__.py
 teamscritique/happy1.wav

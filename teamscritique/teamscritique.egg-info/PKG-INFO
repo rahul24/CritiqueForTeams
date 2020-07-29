@@ -1,10 +1,17 @@
 Metadata-Version: 1.0
 Name: teamscritique
-Version: 1.1
-Summary: The funniest joke in the world
-Home-page: http://github.com/storborg/funniest
+Version: 1.4
+Summary: library for sentiment analysis for Teams call
+Home-page: https://github.com/rahul24/CritiqueForTeams
 Author: Xiao Yin
 Author-email: yinxiao@microsoft.com
 License: MIT
-Description: UNKNOWN
+Description: Project description
+        ---------------------
+        
+        teamscritique provides library for analyzing audio file's sentiment (sad or happy). To analyze sentiment in audio file, simply go to python and do:
+        
+            >>> import teamscritique
+            >>> teamscritique.analyze(filelocation)
+Keywords: Teams
 Platform: UNKNOWN
