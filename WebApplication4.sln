@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureCloudService1", "AzureCloudService1\AzureCloudService1.ccproj", "{50EC5E01-AF85-4138-8F38-9DD50F0493C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRole1", "WorkerRole1\WorkerRole1.csproj", "{30B9557B-25AB-4FF7-A229-E7A3AE84E419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEndApp", "FrontEndApp\FrontEndApp.csproj", "{118695E6-37C0-4163-BF68-CE1FFAA648C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Supportedfiles", "Supportedfiles", "{6F6365D7-09EA-448C-B493-7ABE8349E423}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\hack\ngrok-stable-windows-amd64.zip = ..\..\..\..\..\hack\ngrok-stable-windows-amd64.zip
+		..\..\..\..\..\hack\ngrok.pfx = ..\..\..\..\..\hack\ngrok.pfx
+		..\..\..\..\..\hack\ngrok.yml = ..\..\..\..\..\hack\ngrok.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50EC5E01-AF85-4138-8F38-9DD50F0493C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50EC5E01-AF85-4138-8F38-9DD50F0493C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50EC5E01-AF85-4138-8F38-9DD50F0493C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50EC5E01-AF85-4138-8F38-9DD50F0493C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B9557B-25AB-4FF7-A229-E7A3AE84E419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B9557B-25AB-4FF7-A229-E7A3AE84E419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B9557B-25AB-4FF7-A229-E7A3AE84E419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B9557B-25AB-4FF7-A229-E7A3AE84E419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118695E6-37C0-4163-BF68-CE1FFAA648C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118695E6-37C0-4163-BF68-CE1FFAA648C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118695E6-37C0-4163-BF68-CE1FFAA648C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118695E6-37C0-4163-BF68-CE1FFAA648C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FBAB0F8-C79D-4378-9214-4199C26D1329}
+	EndGlobalSection
+EndGlobal
