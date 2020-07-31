@@ -1,0 +1,8 @@
+librosa==0.8.0
+soundfile
+numpy==1.19.1
+sklearn
+pandas
+scipy
+pathlib
+markdown
