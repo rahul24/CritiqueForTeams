@@ -17,7 +17,7 @@ setup(name='teamscritique',
       install_requires=[
           'librosa==0.8.0',
           'soundfile',
-          'numpy==1.19.1',
+          'numpy==1.22.0',
           'sklearn',
           'pandas',
           'scipy',
